@@ -1,0 +1,26 @@
+EduCare-Agent/
+│
+├── README.md
+├── requirements.txt
+├── agent_engine.yaml
+├── Dockerfile
+├── main.py
+│
+├── src/
+│   ├── __init__.py
+│   ├── orchestrator.py
+│   ├── planner_agent.py
+│   ├── evaluator_agent.py
+│   ├── wellness_agent.py
+│   ├── memory.py
+│   ├── tools.py
+│   └── utils.py
+│
+├── tests/
+│   ├── test_planner.py
+│   ├── test_evaluator.py
+│   ├── test_wellness.py
+│   └── test_memory.py
+│
+└── demo/
+    └── demo_notebook.ipynb
