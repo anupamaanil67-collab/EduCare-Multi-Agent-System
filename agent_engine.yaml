@@ -1,0 +1,3 @@
+runtime: "agent-engine"
+entrypoint: "src.orchestrator:run"
+memory: "2Gi"
